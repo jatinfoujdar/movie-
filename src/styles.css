@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #059669;
+  --light-green: #ecfdf5;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  background-color: var(--light-green);
+  padding: left 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.list {
+  list-style: none;
+}
+.btn {
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--primary-color);
+}
+.list-item {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
