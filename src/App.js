@@ -3,22 +3,22 @@ import "./styles.css";
 
 var moviesDataBase = {
   action: [
-    { name: "superman", rating: "4/5" },
-    { name: "DeadPool", rating: "4.9/5" },
-    { name: "DeadPool2", rating: "3.5/5" }
+    { name: " Spiderhead ", rating: "4/5" },
+    { name: " K.G.F: Chapter 2", rating: "4.9/5" },
+    { name: " The King's Man", rating: "3.5/5" }
   ],
 
   thriller: [
     {
-      name: "Drishyam",
+      name: "The Northman",
       rating: "5/5"
     },
     {
-      name: "Black Widow",
+      name: " Morbius",
       rating: "4.5/5"
     },
     {
-      name: "Thappad",
+      name: "Prey",
       rating: "3/5"
     }
   ],
@@ -28,11 +28,11 @@ var moviesDataBase = {
       rating: "3.5/5"
     },
     {
-      name: "Bhoot Police",
+      name: " Scream",
       rating: "5/5"
     },
     {
-      name: "shh. phir koi hai",
+      name: " The Hunt",
       rating: "3/5"
     }
   ]
@@ -48,7 +48,7 @@ export default function App() {
     <div className="App container">
       <h1>
         {" "}
-        <span role="img"> 🎞️ </span>Movies recommender
+        <span role="img"> 📼 </span>Movies Generator
       </h1>
       <p>I m recommending you some of my favourites movies</p>
       <div className="container">
