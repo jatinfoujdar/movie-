@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #059669;
-  --light-green: #ecfdf5;
+  --primary-color: rgb(169, 161, 201);
+  --light-green: #0d7e49;
 }
 .App {
-  font-family: sans-serif;
+  font-family: "Odibee Sans", cursive;
   text-align: center;
 }
 .container {
@@ -20,8 +20,8 @@
   list-style: none;
 }
 .btn {
-  border-radius: 0.5rem;
-  color: white;
+  border-radius: 1rem;
+  color: blue;
   background-color: var(--primary-color);
 }
 .list-item {
